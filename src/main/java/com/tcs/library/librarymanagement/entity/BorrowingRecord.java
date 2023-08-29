@@ -1,8 +1,9 @@
 package com.tcs.library.librarymanagement.entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.persistence.*;
+
 import java.time.LocalDate;
 
 @Entity(name="BORROWING_RECORD")
